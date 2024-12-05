@@ -1,0 +1,111 @@
+/* Fond sombre et polices élégantes */
+body {
+    background-color: #111;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Empêche le scroll horizontal */
+}
+
+/* Section principale */
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), #111);
+    text-align: center;
+    overflow: hidden;
+}
+
+.title-container {
+    transition: transform 1s ease, opacity 1s ease; /* Animation fluide au défilement */
+    display: inline-block;
+}
+
+/* Titre principal */
+.main-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 100px;
+    color: #;
+    letter-spacing: 15px;
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+    margin: 0;
+    animation: rotate3D 8s infinite linear; /* Animation 3D */
+    display: inline-block;
+}
+
+.symbol {
+    color: #ffd700; /* Couleur dorée pour le "x" */
+}
+
+/* Sous-titre */
+.subtitle {
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+/* Texte principal */
+.content {
+    padding: 50px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.8;
+    font-size: 18px;
+    color: #111;
+}
+
+/* Animation 3D */
+@keyframes rotate3D {
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(360deg);
+    }
+}
+
+/* Transition au défilement */
+.hero.scrolled .title-container {
+    transform: translateY(-100%) scale(0.5); /* Déplace vers le haut et réduit */
+    opacity: 0; /* Rend invisible */
+}
+footer {
+  background-color: #333; /* Couleur de fond sombre */
+  color: black;           /* Texte en blanc */
+  text-align: center;     /* Centrer le texte */
+  padding: 10px 0;        /* Espacement autour du texte */
+  position: fixed;        /* Fixer le footer en bas */
+  left: 0;
+  bottom: 0;
+  width: 100%;            /* Prendre toute la largeur de l'écran */
+  font-family: Arial, sans-serif; /* Police simple */
+}
+
+footer p {
+  margin: 0; /* Enlever les marges par défaut */
+}
+
+#year {
+  font-weight: bold; /* Pour le texte de l'année */
+}
+body
+{ background-image: url("file:///C:/Users/Eleve/Downloads/84D52305-1BAA-499C-B042-901FDC3DE498%20(1).jpg")
+  }
+  /* Texte en noir */
+.title {
+    color: black; /* Met le titre en noir */
+    font-size: 36px; /* Taille du texte */
+}
+
+.paragraph {
+    color: black; /* Met le paragraphe en noir */
+    font-size: 18px;
+    line-height: 1.5; /* Espacement entre les lignes */
+}
+
+
